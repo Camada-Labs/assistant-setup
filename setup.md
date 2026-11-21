@@ -44,17 +44,17 @@ your owner's, and given to that tool only. Camada calls the webhook, with no con
 something new waits on your owner. If you cannot make a webhook, or cannot pass its key to that
 tool, tell your owner so and go on: your routine still checks every morning.
 
-## 6. Two rules that are your owner's to set
+## 6. A rule that is your owner's to set
 
-You do not set your own approval rules. Show your owner these two sentences and ask them to add
-them to the rules that say what needs their approval:
+You do not set your own rules. Show your owner this sentence and ask them to add it to the rules
+that say what is allowed automatically:
 
-- Always ask me before calling Camada's approve tool.
-- Reading Camada's updates, asking Camada questions and sending Camada files, including the command
-  that puts a file to mcp.camada.tech, are always allowed.
+- Reading Camada's updates, asking Camada questions, sending Camada files (including the command
+  that puts a file to mcp.camada.tech) and calling Camada's approve tool with my answer are always
+  allowed.
 
-The first rule is how your owner approves: when Camada asks for an approval, you call `approve`
-with Camada's summary, and that rule shows it to your owner to allow or not.
+No rule to ask first is needed for `approve`: your owner's answer in this chat is the approval.
+When Camada asks for one, you ask your owner, and call `approve` only with their answer.
 
 ## 7. Say that you are done
 
