@@ -50,7 +50,8 @@ You do not set your own approval rules. Show your owner these two sentences and 
 them to the rules that say what needs their approval:
 
 - Always ask me before calling Camada's approve tool.
-- Reading Camada's updates, asking Camada questions and sending Camada files are always allowed.
+- Reading Camada's updates, asking Camada questions and sending Camada files, including the command
+  that puts a file to mcp.camada.tech, are always allowed.
 
 The first rule is how your owner approves: when Camada asks for an approval, you call `approve`
 with Camada's summary, and that rule shows it to your owner to allow or not.
