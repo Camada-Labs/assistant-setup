@@ -41,16 +41,19 @@ If you can be started by a webhook, create one for yourself whose instruction is
 `updates` and tell your owner what is new; say nothing when nothing waits. Then call Camada's
 `doorbell` tool with that webhook's address and its key: a key you made for Camada, not one of
 your owner's, and given to that tool only. Camada calls the webhook, with no content, when
-something new waits on your owner. If you cannot make a webhook yourself, tell your owner so, and
-go on.
+something new waits on your owner. If you cannot make a webhook, or cannot pass its key to that
+tool, tell your owner so and go on: your routine still checks every morning.
 
 ## 6. Two rules that are your owner's to set
 
 You do not set your own approval rules. Show your owner these two sentences and ask them to add
 them to the rules that say what needs their approval:
 
-- Always ask me before approving anything in Camada.
-- Reading updates from Camada and asking Camada questions is always allowed.
+- Always ask me before calling Camada's approve tool.
+- Reading Camada's updates, asking Camada questions and sending Camada files are always allowed.
+
+The first rule is how your owner approves: when Camada asks for an approval, you call `approve`
+with Camada's summary, and that rule shows it to your owner to allow or not.
 
 ## 7. Say that you are done
 

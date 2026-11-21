@@ -26,7 +26,7 @@ you have accepted the terms for your company.
    behave with Camada;
 4. offers you a daily routine to tell you what is new, and sets it only if you agree;
 5. if it can, creates a webhook so that Camada can wake it when something new waits on you;
-6. shows you two approval rules for you to add yourself;
+6. shows you two approval rules for you to add yourself: the first is how you approve;
 7. tells you what it set up.
 
 It is asked to change nothing else, and to ask you before replacing anything it already has.
@@ -43,8 +43,8 @@ Camada's server offers it five tools:
 - `updates`: what waits on you, what is due soon, and answers that came later;
 - `upload`: files you send Camada, put straight to Camada without passing through the assistant's
   model;
-- `approve`: an approval, only when you said so, repeating Camada's own summary of it word for
-  word; Camada confirms each one by email;
+- `approve`: an approval Camada asks you for. Your assistant calls it with Camada's own summary,
+  and your own approval rule shows it to you to allow or not; Camada confirms each one by email;
 - `doorbell`: the address and key of your assistant's own webhook, so Camada can wake it.
 
 There is no tool that hands your assistant raw figures from your books. The books themselves you
