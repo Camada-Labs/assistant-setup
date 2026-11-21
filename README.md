@@ -48,7 +48,9 @@ Camada's server offers it five tools:
 - `approve`: an approval Camada asks you for. Your assistant asks you first, saying what it books
   and for how much, and passes on your answer in your words with Camada's own summary; Camada
   confirms each one by email;
-- `doorbell`: the address and key of your assistant's own webhook, so Camada can wake it.
+- `doorbell`: the address and key of your assistant's own webhook, so Camada can wake it. Where
+  your assistant cannot hand over the key itself, you paste it on a one-time Camada page, never
+  in the chat.
 
 There is no tool that hands your assistant raw figures from your books. The books themselves you
 open with your Camada ID.

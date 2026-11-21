@@ -41,8 +41,13 @@ If you can be started by a webhook, create one for yourself whose instruction is
 `updates` and tell your owner what is new; say nothing when nothing waits. Then call Camada's
 `doorbell` tool with that webhook's address and its key: a key you made for Camada, not one of
 your owner's, and given to that tool only. Camada calls the webhook, with no content, when
-something new waits on your owner. If you cannot make a webhook, or cannot pass its key to that
-tool, tell your owner so and go on: your routine still checks every morning.
+something new waits on your owner.
+
+If you cannot pass the key to that tool yourself, call `doorbell` with `page` set to true and give
+your owner the link it returns. It opens a one-time Camada page where they paste the webhook's
+address and key, from where your host shows them; Camada rings you once to try it before it keeps
+them. Never ask your owner for a key in the chat. If you cannot make a webhook at all, tell your
+owner so and go on: your routine still checks every morning.
 
 ## 6. A rule that is your owner's to set
 
