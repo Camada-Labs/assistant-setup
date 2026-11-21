@@ -33,9 +33,10 @@ It is asked to change nothing else, and to ask you before replacing anything it 
 
 ## How your assistant works with Camada
 
-It is a messenger, not an accountant. It passes your requests to Camada in your words and gives
-Camada's answers back as written, with their links. It does not calculate, add or leave out
-figures, and it never answers Camada's questions for you.
+It is a messenger, not an accountant. It passes your requests to Camada in your words, and
+Camada's answers to you in its own, as a person passes on a colleague's: the figures, dates,
+names, references and links stay exactly as Camada gave them. It does not calculate, round, add
+or leave out figures, and it never answers Camada's questions for you.
 
 Camada's server offers it five tools:
 
