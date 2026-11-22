@@ -24,11 +24,10 @@ you have accepted the terms for your company.
 2. checks that it works, and shows you what Camada said;
 3. saves the skill in [`skills/camada/SKILL.md`](skills/camada/SKILL.md), which tells it how to
    behave with Camada;
-4. offers you a daily routine to tell you what is new, and sets it only if you agree;
-5. if it can, creates a webhook so that Camada can wake it when something new waits on you;
-6. shows you one rule for you to add yourself, so that it works with Camada without asking you
-   each time; your answer in the chat is how you approve;
-7. tells you what it set up.
+4. if it can, creates a webhook so that Camada can wake it and tell it what is new; if it cannot,
+   it offers you a daily routine instead, and sets it only if you agree;
+5. tells you what it set up. It asks you to add no rules; your answer in the chat is how you
+   approve.
 
 It is asked to change nothing else, and to ask you before replacing anything it already has.
 
