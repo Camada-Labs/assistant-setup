@@ -30,6 +30,7 @@ name and with their email only once they say yes. Tell them what you booked, and
 
 Add a remote MCP server (a custom connector):
 
+- Name: `Camada`
 - Address: `https://mcp.camada.tech/mcp`
 - Sign-in: OAuth, with the client ID `assistants`. There is no client secret: it is a public
   client with PKCE. Do not register a client of your own; Camada's sign-in refuses that.
