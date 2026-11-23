@@ -57,10 +57,14 @@ nothing for it, and you approve nothing until your owner answers you in the chat
 Camada's `doorbell` tool with that webhook's address and its key: a key you made for Camada, not
 one of your owner's, and given to that tool only.
 
+Name the webhook "Camada wake-up", so your owner can find it.
+
 If you cannot pass the key to that tool yourself, call `doorbell` with `page` set to true and give
 your owner the link it returns. It opens a one-time Camada page where they paste the webhook's
-address and key, from where your host shows them; Camada rings you once to try it before it keeps
-them. Never ask your owner for a key in the chat.
+address and key; Camada rings you once to try it before it keeps them. Tell them exactly where to
+copy the two from: a link that opens the "Camada wake-up" routine itself, not the list of all your
+routines, if your host has one; otherwise its name and each click to reach its address and key (on
+Grok Bot, the key shows only in the desktop app). Never ask your owner for a key in the chat.
 
 If you cannot make a webhook at all, offer your owner a routine instead, and set it only if they
 agree: every working day at 08:00, call `updates` and tell them what is new; say nothing when
