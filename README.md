@@ -13,8 +13,10 @@ Give your assistant this one sentence:
 
 > Set up Camada by following https://raw.githubusercontent.com/Camada-Labs/assistant-setup/main/setup.md
 
-Your assistant needs to be connected at Camada first. A person at Camada does that for you, once
-you have accepted the terms for your company.
+When you sign in with your Camada ID, Camada shows you what your assistant will and will not be
+able to do, for each company you administer or manage. You tick the box for Camada's
+[terms for assistants](https://camada.tech/terms/assistants/) and press Allow. You can remove its
+access at any time, in your profile in Camada's console.
 
 ## Not a Camada client yet?
 
@@ -76,8 +78,9 @@ open with your Camada ID.
 
 ## Stopping
 
-Remove Camada's connection from your assistant, or ask Camada to end it. A connection also ends by
-itself after 30 days without use.
+Remove Camada's connection from your assistant, or remove your assistant's access under "Your
+assistants" in your profile in Camada's console. A connection also ends by itself after 30 days
+without use.
 
 ## Questions
 

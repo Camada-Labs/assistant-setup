@@ -35,10 +35,15 @@ Add a remote MCP server (a custom connector):
 - Sign-in: OAuth, with the client ID `assistants`. There is no client secret: it is a public
   client with PKCE. Do not register a client of your own; Camada's sign-in refuses that.
 
-Then ask your owner to sign in with their Camada ID when your sign-in card or link appears.
+Then ask your owner to sign in with their Camada ID when your sign-in card or link appears. After
+they sign in, Camada ID shows them what you will and will not be able to do, and for which of their
+companies. They tick the box for Camada's terms for assistants and press Allow, and the browser
+comes back to you by itself. If they press Cancel, your sign-in is declined (`access_denied`): tell
+them nothing was connected, and stop.
 
-If Camada answers that your owner is signed in but not connected, or not a Camada client, tell
-them what it says in your own words, and stop here: the rest of this setup needs the connection.
+If Camada answers that your owner is signed in but not connected, they connect it by signing in to
+Camada again from you and pressing Allow. If it answers that they are not a Camada client, tell them
+what it says in your own words, and stop here: the rest of this setup needs the connection.
 
 Once connected, set Camada's `approve` tool so that your host asks your owner before every call of
 it, and leave the other tools as they are. On Grok Bot: Camada's tool permissions, Approve, "Needs
