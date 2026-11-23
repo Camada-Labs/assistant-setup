@@ -8,6 +8,19 @@ of them, ask your owner before you replace it.
 This page is published at https://github.com/Camada-Labs/assistant-setup, where every change to it
 is recorded.
 
+## If your owner is not a Camada client yet
+
+Camada connects assistants only for its clients, and its sign-in takes no new accounts. If your
+owner has no Camada ID, or Camada answers that they are not a client, tell them in your own words
+what Camada is:
+
+> Camada keeps the books of Swiss small companies: AI agents do the daily bookkeeping, VAT and
+> payroll, and a qualified accountant answers for it. You talk to it from your own assistant, by
+> email or on WhatsApp.
+
+Then offer them a free 30-minute call to see if it fits, at
+https://calendar.app.google/YtHRC26LEpDfpRni8, and stop here.
+
 ## 1. Connect
 
 Add a remote MCP server (a custom connector):

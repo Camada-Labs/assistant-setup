@@ -16,6 +16,14 @@ Give your assistant this one sentence:
 Your assistant needs to be connected at Camada first. A person at Camada does that for you, once
 you have accepted the terms for your company.
 
+## Not a Camada client yet?
+
+Camada keeps the books of Swiss small companies: AI agents do the daily bookkeeping, VAT and
+payroll, and a qualified accountant answers for it. You talk to it from your own assistant, by
+email or on WhatsApp.
+
+[Book a free 30-minute call](https://calendar.app.google/YtHRC26LEpDfpRni8) to see if it fits.
+
 ## What your assistant is asked to do
 
 [`setup.md`](setup.md) is the page your assistant follows. In short, it:
