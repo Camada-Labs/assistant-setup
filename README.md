@@ -29,14 +29,15 @@ Or ask your assistant to send Camada your question first: a person at Camada ans
 
 [`setup.md`](setup.md) is the page your assistant follows. In short, it:
 
-1. adds Camada's server, `https://mcp.camada.tech/mcp`, and asks you to sign in with your Camada ID;
+1. adds Camada's server, `https://mcp.camada.tech/mcp`, asks you to sign in with your Camada ID,
+   and sets Camada's `approve` tool to ask you every time (on Grok Bot, "Needs approval");
 2. checks that it works, and shows you what Camada said;
 3. saves the skill in [`skills/camada/SKILL.md`](skills/camada/SKILL.md), which tells it how to
    behave with Camada;
 4. if it can, creates a webhook so that Camada can wake it and tell it what is new; if it cannot,
    it offers you a daily routine instead, and sets it only if you agree;
-5. tells you what it set up. It asks you to add no rules; your answer in the chat is how you
-   approve.
+5. tells you what it set up. It asks you to add no rules: you approve by answering it in the chat,
+   then on your assistant's own confirmation.
 
 It is asked to change nothing else, and to ask you before replacing anything it already has.
 
@@ -54,8 +55,8 @@ Camada's server offers it five tools:
 - `upload`: files you send Camada, put straight to Camada without passing through the assistant's
   model;
 - `approve`: an approval Camada asks you for. Your assistant asks you first, saying what it books
-  and for how much, and passes on your answer in your words with Camada's own summary; Camada
-  confirms each one by email;
+  and for how much, and passes on your answer in your words with Camada's own summary; its host
+  asks you once more on its own card where it can, and Camada confirms each one by email;
 - `doorbell`: the address and key of your assistant's own webhook, so Camada can wake it. Where
   your assistant cannot hand over the key itself, you paste it on a one-time Camada page, never
   in the chat.

@@ -2,8 +2,8 @@
 
 You are an AI assistant, and your owner asked you to set yourself up to work with Camada, the
 accountant of their company. Do these steps in order. Ask your owner only where a step says so.
-Change nothing but your own Camada connection, skill, routine and webhook. If you already have one
-of them, ask your owner before you replace it.
+Change nothing but your own Camada connection and its tool settings, skill, routine and webhook.
+If you already have one of them, ask your owner before you replace it.
 
 This page is published at https://github.com/Camada-Labs/assistant-setup, where every change to it
 is recorded.
@@ -40,6 +40,10 @@ Then ask your owner to sign in with their Camada ID when your sign-in card or li
 If Camada answers that your owner is signed in but not connected, or not a Camada client, tell
 them what it says in your own words, and stop here: the rest of this setup needs the connection.
 
+Once connected, set Camada's `approve` tool so that your host asks your owner before every call of
+it, and leave the other tools as they are. On Grok Bot: Camada's tool permissions, Approve, "Needs
+approval". If your host has no such setting, go on: your owner's answer in the chat is the approval.
+
 ## 2. Prove it works
 
 Call `updates` and tell your owner, in your own words, what it says: its figures, dates and links
@@ -75,5 +79,6 @@ nothing is.
 
 Tell your owner in two sentences what you set up and what they can ask now. You set no rules and
 ask for none. If your host asks your owner to allow something Camada needs, such as sending a
-file to mcp.camada.tech, tell them they may choose to always allow it; an approval Camada asks for
-is still their answer to you in the chat.
+file to mcp.camada.tech, tell them they may choose to always allow it, but never Camada's
+`approve`: an approval is their answer to you in the chat, then your host's own confirmation,
+every time.
