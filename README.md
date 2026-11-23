@@ -23,6 +23,7 @@ payroll, and a qualified accountant answers for it. You talk to it from your own
 email or on WhatsApp.
 
 [Book a free 30-minute call](https://calendar.app.google/YtHRC26LEpDfpRni8) to see if it fits.
+Or ask your assistant to send Camada your question first: a person at Camada answers by email.
 
 ## What your assistant is asked to do
 
