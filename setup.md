@@ -18,8 +18,11 @@ what Camada is:
 > payroll, and a qualified accountant answers for it. You talk to it from your own assistant, by
 > email or on WhatsApp.
 
-Then offer them a free 30-minute call to see if it fits, at
-https://calendar.app.google/YtHRC26LEpDfpRni8, and stop here.
+Answer what they ask about it from that, and say plainly when you do not know: the call is where
+the rest is answered. Then offer them a free 30-minute call to see if it fits, and offer to book it
+for them: ask which days and times suit them, open
+https://calendar.app.google/YtHRC26LEpDfpRni8, pick a free slot that fits, and book it in their
+name and with their email only once they say yes. Tell them what you booked, and stop here.
 
 ## 1. Connect
 
