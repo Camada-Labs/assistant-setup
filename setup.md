@@ -18,12 +18,13 @@ Add a remote MCP server (a custom connector):
 
 Then ask your owner to sign in with their Camada ID when your sign-in card or link appears.
 
-If Camada answers that their assistant is not connected, tell them so in Camada's words: they
-connect an assistant at Camada first.
+If Camada answers that your owner is signed in but not connected, or not a Camada client, tell
+them what it says in your own words, and stop here: the rest of this setup needs the connection.
 
 ## 2. Prove it works
 
-Call `updates` and show your owner exactly what it returns.
+Call `updates` and tell your owner, in your own words, what it says: its figures, dates and links
+exact.
 
 ## 3. Save the skill
 
