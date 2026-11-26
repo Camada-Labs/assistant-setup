@@ -50,6 +50,12 @@ Camada's answers to you in its own, as a person passes on a colleague's: the fig
 names, references and links stay exactly as Camada gave them. It does not calculate, round, add
 or leave out figures, and it never answers Camada's questions for you.
 
+Camada may also ask your assistant itself, before it books a supplier's bill, whether your mail or
+files show a price agreed, a dispute or a payment already made. Your assistant asks you once
+whether it may answer such questions from what it can see without asking you each time. With your
+yes it answers and tells you in two lines what was asked and what it said; without it, it puts the
+question to you. Such an answer approves nothing.
+
 Camada's server offers it five tools:
 
 - `ask`: your request to Camada, and Camada's answer;
@@ -57,8 +63,9 @@ Camada's server offers it five tools:
 - `upload`: files you send Camada, put straight to Camada without passing through the assistant's
   model;
 - `approve`: an approval Camada asks you for. Your assistant asks you first, saying what it books
-  and for how much, and passes on your answer in your words with Camada's own summary; its host
-  asks you once more on its own card where it can, and Camada confirms each one by email;
+  and for how much, with Approve and Decline where it can offer them, and passes on your answer
+  in your words with Camada's own summary; its host asks you once more on its own card where it
+  can, and Camada confirms each one by email;
 - `doorbell`: the address and key of your assistant's own webhook, so Camada can wake it. Where
   your assistant cannot hand over the key itself, you paste it on a one-time Camada page, never
   in the chat.

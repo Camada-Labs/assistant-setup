@@ -63,7 +63,8 @@ save its text, as it is, as a skill of your own named "Camada".
 
 If you can be started by a webhook, create one for yourself whose instruction is: tell your owner
 what Camada sent, in your own words, its facts exact. Camada's call says what is new, so you call
-nothing for it, and you approve nothing until your owner answers you in the chat. Then call
+nothing for it except to answer a question Camada asks you yourself, and you approve nothing
+until your owner answers you in the chat. Then call
 Camada's `doorbell` tool with that webhook's address and its key: a key you made for Camada, not
 one of your owner's, and given to that tool only.
 
